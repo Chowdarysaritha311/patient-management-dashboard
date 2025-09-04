@@ -1,0 +1,12 @@
+{
+  "name": "Patient",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string", "description": "Full name of the patient" },
+    "email": { "type": "string", "format": "email", "description": "Patient's email address" },
+    "phone": { "type": "string", "description": "Patient's phone number" },
+    "city": { "type": "string", "description": "Patient's city of residence" },
+    "external_id": { "type": "number", "description": "External API ID reference" }
+  },
+  "required": ["name", "email", "phone", "city"]
+}
