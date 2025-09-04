@@ -1,0 +1,18 @@
+src/
+│── entities/
+│   └── Patient.js                # CRUD functions (list, create, update, delete)
+│
+│── components/
+│   └── dashboard/
+│       ├── SearchBar.js          # Search input + city dropdown
+│       ├── PatientTable.js       # Table for patients (sort, edit, delete)
+│       ├── PatientForm.js        # Add/Edit modal form
+│       ├── Pagination.js         # Pagination component
+│       ├── Toast.js              # Toast + ToastContainer
+│
+│── pages/
+│   └── Dashboard.js              # (the file you sent)
+│
+│── App.js                        # Root app file (renders Dashboard)
+│── index.js                      # Entry point
+│── App.css                       # Global styles (or Tailwind setup)
